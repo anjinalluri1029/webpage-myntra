@@ -1,0 +1,639 @@
+#section3{
+    height: 196vh;
+    display: flex;
+    overflow: scroll;
+}
+#section3 #portion1{
+    width: 20%;
+}
+#section3 #portion1 #part1{
+    border-bottom: 1px solid #e9e9ed;
+    height: 53px;
+    padding-top: 18px;
+    padding-left: 23px;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #000000;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+#section3 #portion1 #part2 h1{
+    border-right: 1px solid #e9e9ed;
+    font-size: 12.5px;
+    padding-top: 22px;
+    padding-left: 23px;
+    font-weight: 650;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282c3f;
+}
+#section3 #portion1 #part2 ol{
+    border-right: 1px solid #e9e9ed;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+    border-bottom: 1px solid #e9e9ed;
+}
+#section3 #portion1 #part2 ol li{
+    cursor: pointer;
+    display: flex;
+}
+#section3 #portion1 #part2 ol li+li{
+    padding-top: 3.5px;
+}
+#section3 #portion1 #part2 ol li input[type="checkbox"]{
+    height: 22px;
+    width: 15px;
+    accent-color: #ff3f6c;
+    position: relative;
+    bottom: 3px;
+}
+#section3 #portion1 #part2 ol li span{
+    color: #282c3f;
+    padding-top: 2px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 14px;
+}
+#section3 #portion1 #part2 ol li span+span{
+    color: #94969f;
+    font-size: 9.5px;
+    padding-top: 6px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 2px;
+}
+#section3 #portion1 #part3 h1{
+    border-right: 1px solid #e9e9ed;
+    font-size: 12.5px;
+    font-weight: 650;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282c3f;
+    padding: 14px 12px 0px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#section3 #portion1 #part3 h1 div{
+    position: relative;
+    bottom: 2px;
+    border: 0;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: #f5f5f6;
+}
+#section3 #portion1 #part3 h1 div i{
+    font-size: 18px;
+    color: rgb(104, 103, 103);
+}
+#section3 #portion1 #part3 ol{
+    border-right: 1px solid #e9e9ed;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-left: 23px;
+    border-bottom: 1px solid #e9e9ed;
+}
+#section3 #portion1 #part3 ol li{
+    display: flex;
+    cursor: pointer;
+}
+#section3 #portion1 #part3 ol li+li{
+    padding-top: 3.5px;
+}
+#section3 #portion1 #part3 ol li input[type="checkbox"]{
+    height: 22px;
+    width: 15px;
+    accent-color: #ff3f6c;
+    position: relative;
+    bottom: 3px;
+}
+#section3 #portion1 #part3 ol li span{
+    color: #282c3f;
+    padding-top: 2px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 14px;
+}
+#section3 #portion1 #part3 ol li span+span{
+    color: #94969f;
+    font-size: 9.5px;
+    padding-top: 6px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 2px;
+}
+#section3 #portion1 #part3 ol li:last-child{
+    color: #ff3f6c;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+    font-weight: 300;
+    padding-top: 8px;
+    padding-left: 25px;
+}
+#section3 #portion1 #part4 h1{
+    border-right: 1px solid #e9e9ed;
+    font-size: 12.5px;
+    padding-top: 23px;
+    padding-left: 23px;
+    font-weight: 650;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282c3f;
+}
+#section3 #portion1 #part4 ol{
+    border-right: 1px solid #e9e9ed;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+    border-bottom: 1px solid #e9e9ed;
+}
+#section3 #portion1 #part4 ol li{
+    display: flex;
+    cursor: pointer;
+}
+#section3 #portion1 #part4 ol li+li{
+    padding-top: 3.5px;
+}
+#section3 #portion1 #part4 ol li input[type="checkbox"]{
+    height: 22px;
+    width: 15px;
+    accent-color: #ff3f6c;
+    position: relative;
+    bottom: 3px;
+}
+#section3 #portion1 #part4 ol li span{
+    color: #282c3f;
+    padding-top: 2px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 14px;
+}
+#section3 #portion1 #part4 ol li span+span{
+    color: #94969f;
+    font-size: 9.5px;
+    padding-top: 6px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 2px;
+}
+#section3 #portion1 #part5 h1{
+    border-right: 1px solid #e9e9ed;
+    font-size: 12.5px;
+    font-weight: 650;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282c3f;
+    padding: 14px 12px 0px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#section3 #portion1 #part5 h1 div{
+    position: relative;
+    bottom: 2px;
+    border: 0;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: #f5f5f6;
+}
+#section3 #portion1 #part5 h1 div i{
+    font-size: 18px;
+    color: rgb(104, 103, 103);
+}
+#section3 #portion1 #part5 ol{
+    border-right: 1px solid #e9e9ed;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-left: 23px;
+    border-bottom: 1px solid #e9e9ed;
+}
+#section3 #portion1 #part5 ol li{
+    display: flex;
+    cursor: pointer;
+}
+#section3 #portion1 #part5 ol li+li{
+    padding-top: 3.5px;
+}
+#section3 #portion1 #part5 ol li input[type="checkbox"]{
+    height: 22px;
+    width: 15px;
+    accent-color: #ff3f6c;
+    position: relative;
+    bottom: 3px;
+}
+#section3 #portion1 #part5 ol li div{
+    border: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+#section3 #portion1 #part5 ol li:nth-child(1) div{
+    background-color: #364547;
+}
+#section3 #portion1 #part5 ol li:nth-child(2) div{
+    background-color: #915039;
+}
+#section3 #portion1 #part5 ol li:nth-child(3) div{
+    background-color: #9fa8ab;
+}
+#section3 #portion1 #part5 ol li:nth-child(4) div{
+    background-color: #ffffff;
+    border: 1px solid #e9e9ed;
+}
+#section3 #portion1 #part5 ol li:nth-child(5) div{
+    background-color: #d2b48c;
+}
+#section3 #portion1 #part5 ol li:nth-child(6) div{
+    background-color: #3c4477;
+}
+#section3 #portion1 #part5 ol li:nth-child(7) div{
+    background-color: #0074d9;
+}
+#section3 #portion1 #part5 ol li span{
+    color: #282c3f;
+    padding-top: 2px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 10px;
+}
+#section3 #portion1 #part5 ol li span+span{
+    color: #94969f;
+    font-size: 9.5px;
+    padding-top: 6px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 2px;
+}
+#section3 #portion1 #part5 ol li:last-child{
+    color: #ff3f6c;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+    font-weight: 300;
+    padding-top: 8px;
+    padding-left: 25px;
+}
+#section3 #portion1 #part6 h1{
+    border-right: 1px solid #e9e9ed;
+    font-size: 12.5px;
+    padding-top: 23px;
+    padding-left: 23px;
+    font-weight: 650;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282c3f;
+}
+#section3 #portion1 #part6 ol{
+    border-right: 1px solid #e9e9ed;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+}
+#section3 #portion1 #part6 ol li{
+    display: flex;
+    cursor: pointer;
+}
+#section3 #portion1 #part6 ol li+li{
+    padding-top: 3.5px;
+}
+#section3 #portion1 #part6 ol li input[type="radio"]{
+    height: 22px;
+    width: 15px;
+    accent-color: #ff3f6c;
+    position: relative;
+    bottom: 3px;
+}
+#section3 #portion1 #part6 ol li span{
+    color: #282c3f;
+    padding-top: 2px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 13px;
+}
+#section3 #portion2{
+    width: 82%;
+    overflow: scroll;
+}
+#section3 #portion2 #part1{
+    border-bottom: 1px solid #e9e9ed;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section3 #portion2 #part1 ol{
+    border: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 305px;
+    padding-left: 21px;
+}
+#section3 #portion2 #part1 ol li{
+    border:0;
+    border-radius: 24px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+#section3 #portion2 #part1 ol li:hover{
+    background-color: #F4F4F5;
+    cursor: pointer;
+}
+#section3 #portion2 #part1 ol li span{
+    color: #282c3f;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+#section3 #portion2 #part1 ol li div{
+    width: 17px;
+    height: 20px;
+    margin-left: 4px;
+    background-image: url(./images/MyntraWebSprite_27_01_2021.png);
+    background-position: -2679px -85px;
+    background-size: 1404px 105px;
+    transform: scale(0.8);
+}
+#section3 #portion2 #part1-1{
+    position: relative;
+    right: 30px;
+    bottom: 3px;
+    border: 1px solid #d4d5d9;
+    border-radius:2px;
+    width: 253px;
+    padding: 10px 15px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#section3 #portion2 #part1-1 #part1-1-1 span{
+    color: #282c3f;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+#section3 #portion2 #part1-1 #part1-1-1 span+span{
+    font-weight: 600;
+}
+#section3 #portion2 #part1-1 #part1-1-2{
+    height: 20px;
+    width: 15px;
+    background-position: -367px 6px;
+    background-image: url(./images/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+}
+/* #section3 #portion2 #part2{
+    border: 2px solid;
+} */
+#section3 #portion2 #part2 ol{
+    /* border: 2px solid red; */
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+#section3 #portion2 #part2 ol li{
+    /* border: 2px solid green; */
+    height: 360px;
+    width: 210px;
+    margin: 20px;
+    cursor: pointer;
+}
+#section3 #portion2 #part2 ol li #rating{
+    /* border: 2px solid; */
+    height: 280px;
+    background-image: url(./images/1st.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#section3 #portion2 #part2 ol li div #rating1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px;
+    padding: 4px;
+    height: 22px;
+    width: 36%;
+    background-color: #ffffffcc;
+    position: relative;
+    top: 250px;
+    left: 8px;
+    border: 0;
+}
+#section3 #portion2 #part2 ol li div #rating1 span{
+    font-size: 11px;
+    color: #282c3f;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+#section3 #portion2 #part2 ol li div #rating1 #image{
+    height: 22px;
+    width: 22px;
+    background-image: url(./images/MyntraWebSprite_27_01_2021.png);
+    background-position: -171px -28px;
+    background-size: 1404px 105px;
+    transform: scale(.55);
+    position: relative;
+    right: 3px;
+    bottom: 1px;
+}
+#pipeline{
+    position: relative;
+    right: 3px;
+    bottom: 2px;
+}
+#section3 #portion2 #part2 ol li h1{
+    font-size: 14.7px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-left: 13px;
+}
+#section3 #portion2 #part2 ol li p{
+    padding-top: 5px;
+    padding-left: 13px;
+    font-size: 12.5px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #535766;
+}
+#section3 #portion2 #part2 ol li #price{
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+}
+#section3 #portion2 #part2 ol li #price h4{
+    margin-left: 11px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #282c3f;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+#section3 #portion2 #part2 ol li #price strike{
+    font-size: 10px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #7e818c;
+    margin-left: 6px;
+}
+#section3 #portion2 #part2 ol li #price #offer{
+    padding: 0%;
+    font-size: 10.5px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #ff905a;
+    margin-left: 6px;
+}
+#section3 #portion2 #part2 ol li:nth-child(2) #rating{
+    background-image: url(./images/2.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(3) #rating{
+    background-image: url(./images/3.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(4) #rating{
+    background-image: url(./images/4.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(5) #rating{
+    background-image: url(./images/5.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(6) #rating{
+    background-image: url(./images/6.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(7) #rating{
+    background-image: url(./images/7.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(8) #rating{
+    background-image: url(./images/8.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(9) #rating{
+    background-image: url(./images/9.jpeg);
+}
+#section3 #portion2 #part2 ol li:nth-child(10) #rating{
+    background-image: url(./images/10.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(11) #rating{
+    background-image: url(./images/11.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(12) #rating{
+    background-image: url(./images/12.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(13) #rating{
+    background-image: url(./images/13.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(14) #rating{
+    background-image: url(./images/14.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(15) #rating{
+    background-image: url(./images/15.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(16) #rating{
+    background-image: url(./images/16.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(17) #rating{
+    background-image: url(./images/17.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(18) #rating{
+    background-image: url(./images/18.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(19) #rating{
+    background-image: url(./images/19.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(20) #rating{
+    background-image: url(./images/20.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(21) #rating{
+    background-image: url(./images/21.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(22) #rating{
+    background-image: url(./images/22.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(23) #rating{
+    background-image: url(./images/23.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(24) #rating{
+    background-image: url(./images/24.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(25) #rating{
+    background-image: url(./images/25.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(26) #rating{
+    background-image: url(./images/26.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(27) #rating{
+    background-image: url(./images/27.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(28) #rating{
+    background-image: url(./images/28.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(29) #rating{
+    background-image: url(./images/29.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(30) #rating{
+    background-image: url(./images/30.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(31) #rating{
+    background-image: url(./images/31.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(32) #rating{
+    background-image: url(./images/32.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(33) #rating{
+    background-image: url(./images/33.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(34) #rating{
+    background-image: url(./images/34.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(35) #rating{
+    background-image: url(./images/35.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(36) #rating{
+    background-image: url(./images/36.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(37) #rating{
+    background-image: url(./images/37.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(38) #rating{
+    background-image: url(./images/38.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(39) #rating{
+    background-image: url(./images/39.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(40) #rating{
+    background-image: url(./images/40.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(41) #rating{
+    background-image: url(./images/41.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(42) #rating{
+    background-image: url(./images/42.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(43) #rating{
+    background-image: url(./images/43.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(44) #rating{
+    background-image: url(./images/44.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(45) #rating{
+    background-image: url(./images/45.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(46) #rating{
+    background-image: url(./images/46.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(47) #rating{
+    background-image: url(./images/47.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(48) #rating{
+    background-image: url(./images/48.jpeg);
+}
+#section3 #portion2 #part2 ol li:nth-child(49) #rating{
+    background-image: url(./images/49.webp);
+}
+#section3 #portion2 #part2 ol li:nth-child(50) #rating{
+    background-image: url(./images/50.webp);
+}

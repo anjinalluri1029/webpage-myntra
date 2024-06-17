@@ -1,0 +1,411 @@
+footer{
+    height: 302vh;
+    /* border: 2px solid red; */
+    background-color: #FAFBFC;
+}
+footer #portion1{
+    height: 195.5vh;
+    display: flex;
+    width: 85%;
+    margin: 28px 80px 0px 98px;
+}
+footer #portion1 #part1{
+    width: 61.3%;
+}
+footer #portion1 #part1 h1{
+    padding-top: 52px;
+    padding-left: 260px;
+    letter-spacing: -0.2px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+}
+footer #portion1 #part1 h3{
+    padding-top: 50px;
+    letter-spacing: -0.6px;
+    font-size: 11.9px;
+    font-weight: 600;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+}
+footer #portion1 #part1 p{
+    text-align: justify;
+    display: block;
+    margin-block-start: .8em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px;
+    letter-spacing: -0.2px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #7e818c;
+}
+footer #portion1 #part1 p b{
+    cursor: pointer;
+    font-weight: 600;
+}
+footer #portion1 #part1 #stay{
+    padding-top: 25px;
+    letter-spacing: -0.6px;
+    font-size: 11.9px;
+    font-weight: 600;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+}
+footer #portion1 #part1 #make{
+    padding-top: 8px;
+    letter-spacing: -0.6px;
+    font-size: 11.9px;
+    font-weight: 600;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+}
+footer #portion1 #part1 #from{
+    text-align: justify;
+    display: block;
+    margin-block-start: 1.4em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px;
+    letter-spacing: -0.2px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #7e818c;
+}
+footer #portion1 #part1 #browse{
+    text-align: justify;
+    display: block;
+    margin-block-start: 1.2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px;
+    letter-spacing: -0.2px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #7e818c;
+}
+footer #portion1 #part1 #browse b{
+    cursor: pointer;
+}
+footer #portion1 #part1 #other{
+    text-align: justify;
+    display: block;
+    margin-block-start: 1.1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px;
+    letter-spacing: -0.2px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #7e818c;
+}
+footer #portion1 #part1 #other b{
+    cursor: pointer;
+    font-size: 11px;
+    color: #696b79;
+    font-weight: 600;
+}
+footer #portion1 #part1 h2{
+    padding-top: 20px;
+    letter-spacing: -.1px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+}
+footer #portion1 #part2{
+    width: 35%;
+    margin-left: 50px;
+}
+footer #portion1 #part2 h1{
+    padding-top: 52px;
+    padding-left: 85px;
+    letter-spacing: -0.18px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+}
+footer #portion1 #part2 #part2-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+footer #portion1 #part2 #part2-1 #part2-1-1{
+    font-size: 10.5px;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #535766;
+}
+footer #portion1 #part2 #part2-1 #part2-1-2{
+    width: 58px;
+    line-height: 15px;
+    font-size: 11.2px;
+    font-weight: 600;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #535766;
+}
+footer #portion1 #part2 ol{
+    list-style: none;
+    margin-top: 19px;
+}
+footer #portion1 #part2 ol li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer #portion1 #part2 ol li+li{
+    padding-top: 20px;
+}
+footer #portion1 #part2 ol li div{
+    cursor: pointer;
+    width: 80%;
+    color: #282c3f;
+    margin-right: 20px;
+    font-size: 11px;
+    letter-spacing: -0.33px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+footer #portion1 #part2 ol li div+div{
+    cursor:auto;
+    margin-right: 0px;
+    color: #282c3f;
+    font-size: 11px;
+    width: 58px;
+    transform: scale(.97);
+    letter-spacing: -0.33px;
+    font-weight: 300;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+footer #portion1 #part2 #data{
+    font-style: italic;
+    padding-top: 20px;
+    font-weight: 600;
+    letter-spacing: -0.33px;
+    font-size: 11px;
+    color: #535766;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+footer #portion2{
+    height: 106vh;
+    width: 85%;
+    margin: 0px 80px 0px 94px;
+}
+footer #portion2 #part{
+    height: 450px;
+    display: flex;
+}
+footer #portion2 #part #part1{
+    height: inherit;
+    width: 160px;
+}
+footer #portion2 #part #part1 ol{
+    list-style: none;
+}
+footer #portion2 #part #part1 ol li{
+    padding-top: 6px;
+    padding-bottom: 23px;
+    letter-spacing: -0.5px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282C3f;
+}
+footer #portion2 #part #part1 ol li + li{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    padding-bottom: 3px;
+    color: #696b79;
+}
+footer #portion2 #part #part1 ol li + li:hover{
+    cursor: pointer;
+}
+footer #portion2 #part #part1 ol + ol{
+    margin-top: 15px;
+}
+footer #portion2 #part #part2{
+    margin-left: 15px;
+    height: inherit;
+    width: 158px;
+}
+footer #portion2 #part #part2 ol{
+    list-style: none;
+}
+footer #portion2 #part #part2 ol li{
+    padding-top: 6px;
+    padding-bottom: 23px;
+    letter-spacing: -0.5px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282C3f;
+}
+footer #portion2 #part #part2 ol li + li{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    padding-bottom: 3px;
+    color: #696b79;
+}
+footer #portion2 #part #part2 ol li + li:hover{
+    cursor: pointer;
+}
+footer #portion2 #part #part3{
+    margin-left: 5px;
+    height: inherit;
+    width: 280px;
+}
+footer #portion2 #part #part3 ol{
+    list-style: none;
+}
+footer #portion2 #part #part3 ol li{
+    padding-top: 6px;
+    padding-bottom: 22px;
+    letter-spacing: -0.5px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282C3f;
+}
+footer #portion2 #part #part3 ol li + li{
+    padding-top: 5px;
+    height: 55px;
+    display: flex;
+    align-items: start;
+}
+footer #portion2 #part #part3 ol li div{
+    width: 50%;
+}
+footer #portion2 #part #part3 ol li div + div{
+    width: 45%;
+    margin-left: 10px;
+}
+footer #portion2 #part #part3 ol li div img{
+    height: 42px;
+    width: 100%;
+    cursor: pointer;
+}
+footer #portion2 #part #part3 ol+ol li{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    letter-spacing: -0.5px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282C3f;
+}
+footer #portion2 #part #part3 ol+ol li+li{
+    padding: 2px 0px;
+    width: 133px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 28px;
+}
+footer #portion2 #part #part3 ol+ol li+li img{
+    height: 20px;
+    cursor: pointer;
+}
+footer #portion2 #part #part3 ol+ol li+li img:last-child{
+    height: 22px;
+}
+footer #portion2 #part #part4{
+    margin-left: 89px;
+    width: 270px;
+    height: inherit;
+}
+footer #portion2 #part #part4 ol{
+    list-style: none;
+}
+footer #portion2 #part #part4 ol li{
+    display: flex;
+    padding-top: 3px;
+}
+footer #portion2 #part #part4 ol li div{
+    margin-left: 8px;
+    padding-top: 3px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    padding-bottom: 3px;
+    color: #696b79;
+}
+footer #portion2 #part #part4 ol li div b{
+    letter-spacing: -0.5px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282C3f;
+}
+footer #portion2 #part #part4 ol li img{
+    height: 40px;
+}
+footer #portion2 #part #part4 ol li+li img{
+    height: 50px;
+}
+footer #portion2 #part #part4 ol li+li{
+    display: flex;
+    padding-top: 26px;
+}
+footer #portion2 #popular{
+    letter-spacing: -0.55px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282C3f;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+footer #portion2 #popular div{
+    margin-left: 15px;
+    width: 87%;
+    height: 1px;
+    background-color: #EAEAEC;
+}
+#woodland{
+    cursor: pointer;
+    padding-top: 23px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 25px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    padding-bottom: 3px;
+    color: #696b79;
+}
+#contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+#contact p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 25px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    padding-bottom: 3px;
+    color: #696b79;
+}
+#contact p b{
+    cursor: pointer;
+    color: #526cd0;
+}
+
+

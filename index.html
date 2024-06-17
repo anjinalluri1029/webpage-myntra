@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <link rel="icon" type="image/png"
+        href="data:image/png;base64,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"
+        sizes="64x64"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <main id="nav">
+        <div id="nav1">
+            <img src="./images/channels4_profile.jpg" alt="">
+        </div>
+        <ol id="nav2">
+            <li>men</li>
+            <li>women</li>
+            <li>kids</li>
+            <li>home & living</li>
+            <li>beauty</li>
+            <li>studio<sup>new</sup></li>
+        </ol>
+        <form action="" id="nav3">
+            <div id="nav3-1">
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search for products, brands and more">
+            </div>
+        </form>
+        <div id="nav4">
+            <ol id="nav4-1">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+            <div id="nav4-2">
+                <span>Profile</span>
+                <span>Wishlist</span>
+                <span>Bag</span>
+            </div>
+        </div>
+    </main>
+    <main id="section1">
+        <div id="home">Home
+            <span>/</span>
+        </div>
+        <div id="footwear">Footwear
+            <span>/</span>
+        </div>
+        <div id="menfootwear">
+            Men Footwear
+        </div>
+    </main>
+    <main id="section2">
+        <div id="part1">
+            Men Footwear
+        </div>
+        <div id="part2">
+            - 68114 items
+        </div>
+    </main>
+    <main id="section3">
+        <div id="portion1">
+            <div id="part1">
+                FILTERS
+            </div>
+            <div id="part2">
+                <h1>CATEGORIES</h1>
+                <ol>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Casual Shoes</span>
+                        <span>(23830)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Sports Shoes</span>
+                        <span>(14825)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Formal Shoes</span>
+                        <span>(9736)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Flip Flops</span>
+                        <span>(7972)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Sandals</span>
+                        <span>(7087)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Boots</span>
+                        <span>(2806)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Sports Sandals</span>
+                        <span>(1747)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Flats</span>
+                        <span>(94)</span>
+                    </li>
+                </ol>
+            </div>
+            <div id="part3">
+                <h1><span>BRAND</span>
+                    <div><i class='bx bx-search'></i></div>
+                </h1>
+                <ol>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Puma</span>
+                        <span>(2422)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Campus</span>
+                        <span>(2062)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Sparx</span>
+                        <span>(1977)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>FAUSTO</span>
+                        <span>(1777)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>ADIDAS</span>
+                        <span>(1633)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Roadster</span>
+                        <span>(1410)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>ABROS</span>
+                        <span>(1172)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>U.S.Polo Assn.</span>
+                        <span>(1104)</span>
+                    </li>
+                    <li>
+                        +435 more
+                    </li>
+                </ol>
+            </div>
+            <div id="part4">
+                <h1>PRICE</h1>
+                <ol>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Rs. 198 to Rs. 7696</span>
+                        <span>(64297)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Rs. 7696 to Rs. 15194</span>
+                        <span>(3318)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Rs. 15194 to Rs. 22692</span>
+                        <span>(448)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <span>Rs. 22692 to Rs. 30190</span>
+                        <span>(10)</span>
+                    </li>
+                </ol>
+            </div>
+            <div id="part5">
+                <h1><span>COLOR</span>
+                    <div><i class='bx bx-search'></i></div>
+                </h1>
+                <ol>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <div></div>
+                        <span>Black</span>
+                        <span>(20477)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <div></div>
+                        <span>Brown</span>
+                        <span>(8989)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <div></div>
+                        <span>Grey</span>
+                        <span>(6367)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <div></div>
+                        <span>White</span>
+                        <span>(6362)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <div></div>
+                        <span>Tan</span>
+                        <span>(5974)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <div></div>
+                        <span>Navy Blue</span>
+                        <span>(5827)</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="">
+                        <div></div>
+                        <span>Blue</span>
+                        <span>(4235)</span>
+                    </li>
+                    <li>
+                        +37 more
+                    </li>
+                </ol>
+            </div>
+            <div id="part6">
+                <h1>DISCOUNT RANGE</h1>
+                <ol>
+                    <li>
+                        <input type="radio" name="radio" id="radio">
+                        <span>10% and above</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="radio" id="radio">
+                        <span>20% and above</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="radio" id="radio">
+                        <span>30% and above</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="radio" id="radio">
+                        <span>40% and above</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="radio" id="radio">
+                        <span>50% and above</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="radio" id="radio">
+                        <span>60% and above</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="radio" id="radio">
+                        <span>70% and above</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="radio" id="radio">
+                        <span>80% and above</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="radio" id="radio">
+                        <span>90% and above</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div id="portion2">
+            <div id="part1">
+                <ol>
+                    <li>
+                        <span>Bundles</span>
+                        <div></div>
+                    </li>
+                    <li>
+                        <span>Country of Origin</span>
+                        <div></div>
+                    </li>
+                    <li>
+                        <span>Size</span>
+                        <div></div>
+                    </li>
+                </ol>
+                <div id="part1-1">
+                    <div id="part1-1-1">
+                        <span>Sort by :</span>
+                        <span>Recommended</span>
+                    </div>
+                    <div id="part1-1-2"></div>
+                </div>
+            </div>
+            <div id="part2">
+                <ol>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.3</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>1.3k</span>
+                            </div>
+                        </div>
+                        <h1>Sparx</h1>
+                        <p>Men Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 721</h4>
+                            <strike>Rs. 849</strike>
+                            <p id="offer">(15% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>2.4k</span>
+                            </div>
+                        </div>
+                        <h1>Red Tape</h1>
+                        <p>Men Colorblocked Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1349</h4>
+                            <strike>Rs. 5339</strike>
+                            <p id="offer">(75% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>3.7k</span>
+                            </div>
+                        </div>
+                        <h1>Roadster</h1>
+                        <p>Men Textured PU Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 989</h4>
+                            <strike>Rs. 3299</strike>
+                            <p id="offer">(70% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>78</span>
+                            </div>
+                        </div>
+                        <h1>NEEMANS</h1>
+                        <p>Lightweight Slip-On Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1499</h4>
+                            <strike>Rs. 2999</strike>
+                            <p id="offer">(50% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>9.6k</span>
+                            </div>
+                        </div>
+                        <h1>HRX by Hrithik Roshan</h1>
+                        <p>Men Memory Foam Running S..</p>
+                        <div id="price">
+                            <h4>Rs. 999</h4>
+                            <strike>Rs. 2999</strike>
+                            <p id="offer">Rs. 2000 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>2.8k</span>
+                            </div>
+                        </div>
+                        <h1>Campus </h1>
+                        <p>Men Running Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1196</h4>
+                            <strike>Rs. 1899</strike>
+                            <p id="offer">(37% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>974</span>
+                            </div>
+                        </div>
+                        <h1>Sparx</h1>
+                        <p>Men Running Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1119</h4>
+                            <strike>Rs. 1599</strike>
+                            <p id="offer">(30% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.1</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>2.7k</span>
+                            </div>
+                        </div>
+                        <h1>HRX by Hrithik Roshan</h1>
+                        <p>Men Memory Foam Running S...</p>
+                        <div id="price">
+                            <h4>Rs. 999</h4>
+                            <strike>Rs. 2999</strike>
+                            <p id="offer">(Rs. 2000 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.3</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>127</span>
+                            </div>
+                        </div>
+                        <h1>Cultsport</h1>
+                        <p>Unisex X1 Training Shoe</p>
+                        <div id="price">
+                            <h4>Rs. 2049</h4>
+                            <strike>Rs. 4999</strike>
+                            <p id="offer">(59% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.3</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>3.1k</span>
+                            </div>
+                        </div>
+                        <h1>Red Tape</h1>
+                        <p>Men Slip Resistance Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1349</h4>
+                            <strike>Rs. 5399</strike>
+                            <p id="offer">(75% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>2.3k</span>
+                            </div>
+                        </div>
+                        <h1>Campus</h1>
+                        <p>Men Running Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1104</h4>
+                            <strike>Rs. 1699</strike>
+                            <p id="offer">(35% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.8</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>6.4k</span>
+                            </div>
+                        </div>
+                        <h1>Highlander</h1>
+                        <p>Men Solid Leather Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 696</h4>
+                            <strike>Rs. 1990</strike>
+                            <p id="offer">(65% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>2.5k</span>
+                            </div>
+                        </div>
+                        <h1>Killer</h1>
+                        <p>Men Woven Design Slip-On Sn...</p>
+                        <div id="price">
+                            <h4>Rs. 674</h4>
+                            <strike>Rs. 2499</strike>
+                            <p id="offer">(73% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.3</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>2.7k</span>
+                            </div>
+                        </div>
+                        <h1>Red Tape</h1>
+                        <p>Men Mesh Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1724</h4>
+                            <strike>Rs. 6899</strike>
+                            <p id="offer">(75% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>7.1k</span>
+                            </div>
+                        </div>
+                        <h1>Mast & Harbour</h1>
+                        <p>Men Striped Sneakers</p>
+                        <div id="price">
+                            <h4>Rs 8631</h4>
+                            <strike>Rs. 2699</strike>
+                            <p id="offer">(68% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.1</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>3.6k</span>
+                            </div>
+                        </div>
+                        <h1>HRX by Hrithik Roshan</h1>
+                        <p>Men Running Sport Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 999</h4>
+                            <strike>Rs. 2999</strike>
+                            <p id="offer">(Rs. 2000 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>3.2k</span>
+                            </div>
+                        </div>
+                        <h1>Red Tape</h1>
+                        <p>Men Mid-Top Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1679</h4>
+                            <strike>Rs. 5599</strike>
+                            <p id="offer">(70% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.3</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>84</span>
+                            </div>
+                        </div>
+                        <h1>Red Tape</h1>
+                        <p>Men Mesh Walking Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1924</h4>
+                            <strike>Rs. 7699</strike>
+                            <p id="offer">(75% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>5.7k</span>
+                            </div>
+                        </div>
+                        <h1>Killer</h1>
+                        <p>Men Slip-On Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 659</h4>
+                            <strike>Rs. 1999</strike>
+                            <p id="offer">(67% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>117</span>
+                            </div>
+                        </div>
+                        <h1>Puma</h1>
+                        <p>Unisex Sport Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 3499</h4>
+                            <strike>Rs. 4999</strike>
+                            <p id="offer">(30% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>873</span>
+                            </div>
+                        </div>
+                        <h1>ASIAN</h1>
+                        <p>Men Colourblocked Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 719</h4>
+                            <strike>Rs. 999</strike>
+                            <p id="offer">(28% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.3</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>382</span>
+                            </div>
+                        </div>
+                        <h1>Puma</h1>
+                        <p>Galaxy Comfort V3 Thong Flip...</p>
+                        <div id="price">
+                            <h4>Rs. 1399</h4>
+                            <strike>Rs. 1999</strike>
+                            <p id="offer">(30% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.7</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>3.1k</span>
+                            </div>
+                        </div>
+                        <h1>Kook N Keech</h1>
+                        <p>Men Woven Design Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 799</h4>
+                            <strike>Rs. 2299</strike>
+                            <p id="offer">(Rs. 1500 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.6</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>25</span>
+                            </div>
+                        </div>
+                        <h1>ADIDAS</h1>
+                        <p>Unisex Response RunnerURun...</p>
+                        <div id="price">
+                            <h4>Rs. 3919</h4>
+                            <strike>Rs. 5599</strike>
+                            <p id="offer">(30% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.6</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>102</span>
+                            </div>
+                        </div>
+                        <h1>HRX by Hrithik Roshan</h1>
+                        <p>Men Mesh Running Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 999</h4>
+                            <strike>Rs. 2999</strike>
+                            <p id="offer">(Rs. 2000 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.1</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>483</span>
+                            </div>
+                        </div>
+                        <h1>Sparx</h1>
+                        <p>Men Running Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 769</h4>
+                            <strike>Rs. 1099</strike>
+                            <p id="offer">(30% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>1.4k</span>
+                            </div>
+                        </div>
+                        <h1>Red Tape</h1>
+                        <p>Men Colourblocked PU High-T...</p>
+                        <div id="price">
+                            <h4>Rs. 1399</h4>
+                            <strike>Rs. 5599</strike>
+                            <p id="offer">(75% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>1.7k</span>
+                            </div>
+                        </div>
+                        <h1>HRX by Hrithik Roshan</h1>
+                        <p>Men Gamescape Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1259</h4>
+                            <strike>Rs. 4799</strike>
+                            <p id="offer">(Rs. 3450 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>1.9k</span>
+                            </div>
+                        </div>
+                        <h1>HRX by Hrithik Roshan</h1>
+                        <p>Men Printed Sliders</p>
+                        <div id="price">
+                            <h4>Rs. 579</h4>
+                            <strike>Rs. 1999</strike>
+                            <p id="offer">(71% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.1</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>172</span>
+                            </div>
+                        </div>
+                        <h1>NEEMANS</h1>
+                        <p>Woven Design Lace-Up Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1249</h4>
+                            <strike>Rs. 3299</strike>
+                            <p id="offer">(Rs. 2050 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.9</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>609</span>
+                            </div>
+                        </div>
+                        <h1>HRX by Hrithik Roshan</h1>
+                        <p>Men Running Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1399</h4>
+                            <strike>Rs. 3999</strike>
+                            <p id="offer">(Rs. 2600 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>3.4k</span>
+                            </div>
+                        </div>
+                        <h1>U.S. Polo Assn.</h1>
+                        <p>Men BEESLEY 4.0 Printed Slider</p>
+                        <div id="price">
+                            <h4>Rs. 1087</h4>
+                            <strike>Rs. 1599</strike>
+                            <p id="offer">(32% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>8</span>
+                            </div>
+                        </div>
+                        <h1>VECTOR X</h1>
+                        <p>Unisex Velcro Cricket Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1559</h4>
+                            <strike>Rs. 1835</strike>
+                            <p id="offer">(15% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.1</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>3k</span>
+                            </div>
+                        </div>
+                        <h1>HIGHLANDER</h1>
+                        <p>Men Solid Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 696</h4>
+                            <strike>Rs. 1990</strike>
+                            <p id="offer">(65% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>156</span>
+                            </div>
+                        </div>
+                        <h1>Sparx</h1>
+                        <p>Long Distance Running Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 890</h4>
+                            <strike>Rs. 1099</strike>
+                            <p id="offer">(19% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>495</span>
+                            </div>
+                        </div>
+                        <h1>Red Tape</h1>
+                        <p>Men Perforated Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1474</h4>
+                            <strike>Rs. 5899</strike>
+                            <p id="offer">(75% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>121</span>
+                            </div>
+                        </div>
+                        <h1>Valin Fox</h1>
+                        <p>Men Suede Lightweight Sneak...</p>
+                        <div id="price">
+                            <h4>Rs. 999</h4>
+                            <strike>Rs. 4999</strike>
+                            <p id="offer">(80% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.8</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>10.6k</span>
+                            </div>
+                        </div>
+                        <h1>HIGHLANDER</h1>
+                        <p>Men Solid Regular Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 696</h4>
+                            <strike>Rs. 1990</strike>
+                            <p id="offer">(65% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.6</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>9.3k</span>
+                            </div>
+                        </div>
+                        <h1>Roadster</h1>
+                        <p>Men Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 796</h4>
+                            <strike>Rs. 3795</strike>
+                            <p id="offer">(79% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.3</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>9</span>
+                            </div>
+                        </div>
+                        <h1>Liberty</h1>
+                        <p>Kids Velcro School Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1357</h4>
+                            <strike>Rs. 1399</strike>
+                            <p id="offer">(3% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>1.8k</span>
+                            </div>
+                        </div>
+                        <h1>HRX by Hrithik Roshan</h1>
+                        <p>Men Memory Foam Running S...</p>
+                        <div id="price">
+                            <h4>Rs. 989</h4>
+                            <strike>Rs. 2999</strike>
+                            <p id="offer">(67% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>286</span>
+                            </div>
+                        </div>
+                        <h1>ASIAN </h1>
+                        <p>Men Running Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 661</h4>
+                            <strike>Rs. 1249</strike>
+                            <p id="offer">(47% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>73</span>
+                            </div>
+                        </div>
+                        <h1>NIVIA</h1>
+                        <p>Men Flash 2.0 Badminton Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1064</h4>
+                            <strike>Rs. 1120</strike>
+                            <p id="offer">(5% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.9</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>262</span>
+                            </div>
+                        </div>
+                        <h1>Killer
+                        </h1>
+                        <p>Men Lightweight Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 674</h4>
+                            <strike>Rs. 2499</strike>
+                            <p id="offer">(73% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.1</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>948</span>
+                            </div>
+                        </div>
+                        <h1>Mactree</h1>
+                        <p>Men Solid Genuine Leather Fo...</p>
+                        <div id="price">
+                            <h4>Rs. 998</h4>
+                            <strike>Rs. 6410</strike>
+                            <p id="offer">(Rs. 5412 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.6</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>84</span>
+                            </div>
+                        </div>
+                        <h1>HRX by Hrithik Roshan</h1>
+                        <p>Men Perforated Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1060</h4>
+                            <strike>Rs. 5499</strike>
+                            <p id="offer">(Rs. 4439 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>76</span>
+                            </div>
+                        </div>
+                        <h1>NEEMANS</h1>
+                        <p>Woven Design Slip-On Sneakers</p>
+                        <div id="price">
+                            <h4>Rs. 1249</h4>
+                            <strike>Rs. 3299</strike>
+                            <p id="offer">(Rs.2050 OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>157</span>
+                            </div>
+                        </div>
+                        <h1>Puma</h1>
+                        <p>Men Fast Wanderer Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1799</h4>
+                            <strike>Rs. 4499</strike>
+                            <p id="offer">(60% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>3.9</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>4.8k</span>
+                            </div>
+                        </div>
+                        <h1>Provogue</h1>
+                        <p>Men Black Solid Formal Debys</p>
+                        <div id="price">
+                            <h4>Rs. 773</h4>
+                            <strike>Rs. 4295</strike>
+                            <p id="offer">(82% OFF)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="rating">
+                            <div id="rating1">
+                                <span>4.2</span>
+                                <div id="image"></div>
+                                <span id="pipeline">|</span>
+                                <span>48</span>
+                            </div>
+                        </div>
+                        <h1>Puma</h1>
+                        <p>Unisex Sport Shoes</p>
+                        <div id="price">
+                            <h4>Rs. 1999</h4>
+                            <strike>Rs. 4999</strike>
+                            <p id="offer">(60% OFF)</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="portion1">
+            <div id="part1">
+                <h1>BUY MEN FOOTWEAR</h1>
+                <h3>MENS FOOTWEAR FOR ALL DAY STYLE</h3>
+                <p>
+                    Explore our selection of trendy men's footwear for men online to take your pick from the newest
+                    styles of <b>formal shoes</b>, sports shoes, and casual shoes. Make a great impression at work by
+                    wearing a
+                    pair of classy black lace-up shoes with your <b>grey trousers</b> and a crisp white shirt. Complete
+                    your
+                    everyday professional attire with a matching leather belt and a vintage black wristwatch. Wear
+                    <b>formal footwear</b> for men such as pointed patent shoes and team it up with a classic navy
+                    pin-striped
+                    suit for your crucial client presentation. Dazzle your office colleagues with your polished style by
+                    teaming your versatile pair of brown formal shoes with a pair of beige slacks, a pastel green shirt,
+                    and a smart brown belt for a casual office day.
+                </p>
+                <h3 id="stay">STAY COOL AND CONFIDENT WITH MEN SHOES</h3>
+                <p>
+                    Team up your well-cushioned pair of blue sneakers with long surfer <b>shorts</b> and a Hawaiian
+                    shirt while
+                    accompanying your nephews to a cricket practice session. Don't forget to add your wrap-around
+                    sunglasses to stay cool. Wear your ergonomically friendly white <b>running shoes</b> while walking
+                    your
+                    Labrador. Dress in a pair of cool and snazzy denim cut-offs and a black round-neck <b>T-shirt</b>,
+                    and win
+                    admiring glances from the ladies all around. Pepper your traditional side with loads of panache as
+                    you show up in a cream and gold <b>kurta pyjama</b> for the housewarming party at your sister's
+                    house. A
+                    pair of cream sandals footwear for men is just right to take this ensemble to the next style level.
+                </p>
+                <h3 id="make">MAKE AN IMPRESSION WITH MYNTRA</h3>
+                <p id="from">
+                    From <b>loafers</b> to lace-ups, brogues to boots, sneakers and sandals, Myntra boasts of a rich
+                    selection
+                    of men's footwear. Explore our swell range of casual and <b>formal footwear for men</b> online and
+                    add
+                    style to your footwear closet in a jiffy. Look your sartorial best by choosing from our <b>trendy
+                        casual footwear for men</b> and make your weekends and picnic dates memorable. Team your leather
+                    thong
+                    sandals with your Chinese-collar ethnic shirt and sandy chinos to make a great impression at
+                    college. Add a <b>leather sling bag</b> and sporty cologne for a strong masculine appeal. Buy men's
+                    footwear here at Myntra from popular brands, including San Frissco, Roadster, <b>Puma</b>, and
+                    <b>Soludos</b>.
+                    Give in to the splendid options in men's footwear to flaunt your stylish persona, one step at a
+                    time!
+                </p>
+                <p id="browse">
+                    Browse through our <b>online shopping site</b> and order the right one for yourself. Experience the
+                    best of
+                    additional services, such as Cash on Delivery, Free Shipping, 30 Days Return Policy, with Myntra.
+                </p>
+                <p id="other">
+                    <b>OTHER CATEGORIES</b>:men trousers, men shirts, men watches, men tshirts, men jackets.
+                </p>
+                <h2>Video: Myntra feel good fashion – Men’s Footwear Collection</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5NxzUespAn4?si=NEkdzRqNf6iFuhvy"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+                <p>
+                    Hot days make for pop colours. So let your feet do the talking in sneakers of this season. Colours
+                    to plain whites, Myntra has got it all to get your feet tapping all through this summer..
+                </p>
+            </div>
+            <div id="part2">
+                <h1>MEN FOOTWEAR PRICE LIST</h1>
+                <div id="part2-1">
+                    <div id="part2-1-1">
+                        Men Footwear
+                    </div>
+                    <div id="part2-1-2">
+                        PRICE (RS)
+                    </div>
+                </div>
+                <ol>
+                    <li>
+                        <div>Red Tape Men Colourblocked Contrast Sole Sneakers</div>
+                        <div>Rs. 1349</div>
+                    </li>
+                    <li>
+                        <div>Sparx Men White Sneakers</div>
+                        <div>Rs. 721</div>
+                    </li>
+                    <li>
+                        <div>Roadster Men Brown Textured PU Sneakers</div>
+                        <div>Rs. 989</div>
+                    </li>
+                    <li>
+                        <div>NEEMANS Woven Design Lightweight Slip-On Sneakers</div>
+                        <div>Rs. 1499</div>
+                    </li>
+                    <li>
+                        <div>HRX by Hrithik Roshan Men White And Blue Memory Foam Technology Running Shoes</div>
+                        <div>Rs. 999</div>
+                    </li>
+                    <li>
+                        <div>Campus Men Black Mesh Running Shoes</div>
+                        <div>Rs. 1196</div>
+                    </li>
+                    <li>
+                        <div>Sparx Men White Solid Round Toe Running Shoes</div>
+                        <div>Rs. 1119</div>
+                    </li>
+                    <li>
+                        <div>HRX by Hrithik Roshan Men Memory Foam Mesh Non-Marking Running Shoes</div>
+                        <div>Rs. 999</div>
+                    </li>
+                    <li>
+                        <div>Cultsport Unisex Grey & Orange X1 Training Shoes</div>
+                        <div>Rs. 2049</div>
+                    </li>
+                    <li>
+                        <div>Red Tape Men Perforated Slip Resistant Lace-Up Sneakers</div>
+                        <div>Rs. 1349</div>
+                    </li>
+                </ol>
+                <p id="data">Data last updated on 26/02/2024</p>
+            </div>
+        </div>
+        <div id="portion2">
+            <div id="part">
+                <div id="part1">
+                    <ol>
+                        <li>ONLINE SHOPPING</li>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>Kids</li>
+                        <li>Home & Living</li>
+                        <li>Beauty</li>
+                        <li>Gift Cards</li>
+                        <li>Myntra Insider</li>
+                    </ol>
+                    <ol>
+                        <li>USEFUL LINKS</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>Site Map</li>
+                        <li>Corporate Information</li>
+                        <li>Whitehat</li>
+                        <li>Cleartrip</li>
+                    </ol>
+                </div>
+                <div id="part2">
+                    <ol>
+                        <li>CUSTOMER POLICIES</li>
+                        <li>Contact Us</li>
+                        <li>FAQ</li>
+                        <li>T&C</li>
+                        <li>Terms Of Use</li>
+                        <li>Track Orders</li>
+                        <li>Shipping</li>
+                        <li>Cancellation</li>
+                        <li>Returns</li>
+                        <li>Privacy policy</li>
+                        <li>Grievance Officer</li>
+                    </ol>
+                </div>
+                <div id="part3">
+                    <ol>
+                        <li>EXPERIENCE MYNTRA APP ON MOBILE</li>
+                        <li>
+                            <div><img src="./images/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+                                    alt=""></div>
+                            <div><img src="./images/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+                                    alt=""></div>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>KEEP IN TOUCH</li>
+                        <li>
+                            <img src="./images/facebook.png" alt="">
+                            <img src="./images/twitter.png" alt="">
+                            <img src="./images/youtube.png" alt="">
+                            <img src="./images/instagram.png" alt="">
+                        </li>
+                    </ol>
+                </div>
+                <div id="part4">
+                    <ol>
+                        <li>
+                            <img src="./images/original.png" alt="">
+                            <div><b>100% ORIGINAL</b> guarantee for all products at myntra.com</div>
+                        </li>
+                        <li>
+                            <img src="./images/fourteen.png" alt="">
+                            <div><b>Return within 14days</b> of receiving your order</div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div id="popular">
+                POPULAR SEARCHES
+                <div></div>
+            </div>
+            <p id="woodland">
+                Woodland Shoes | Red Chief | White Shoes | Football Shoes | Adidas Flip Flop | Flip Flops | Men Formal Shoes | Nike
+                Flip Flop | Sports Shoes For Men | Sneakers | Woodland Sandal | Woodland Loafers | Woodland Footwear | Canvas Shoes |
+                Reebok Shoes | Adidas | Arrow | Sport Shoes | Cat Shoes | Puma Shoes | Adidas Shoes | Nike Shoes | Heels | Bata | Puma
+                Sports Sandals | Red Tape | Leather Formal Shoes | Fila Shoes | Men Casual Shoes | Adidas Neo | Skechers | Shoes |
+                Clothing | Jewellery | Loafers | Running Shoes | Cricket Shoes | Women Sandals | Lee Cooper Shoes | Nike Casual Shoes |
+                Puma Casual Shoes | Reebok Sports Shoes | Louis Philippe Shoes | Loafers For Women | Shoes For Men | Womens Shoes |
+                Sparx Sandals | Sandals | Boots | Puma Tshirts
+            </p>
+            <div id="contact">
+                <p>In case of any concern, <b>Contact Us</b></p>
+                <p>© 2024 www.myntra.com. All rights reserved.</p>
+                <p>A Flipkart company</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
